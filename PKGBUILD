@@ -12,7 +12,7 @@ depends=(
   'glibc'
   'lib32-glibc'
   'java-environment-common'
-  'jre7-openjdk-headless'
+  'jre-openjdk-headless'
   'gcc-libs-multilib'
   )
 makedepends=()
@@ -25,7 +25,7 @@ backup=()
 options=()
 install=
 changelog=
-source=("https://cedeela.fr/~simon/files/kodkodi-all.tar.gz")
+source=("https://simon.cedeela.fr/files/kodkodi-all.tar.gz")
 noextract=()
 md5sums=("6a32bacd3bde44fa6fdfd8a14226e5a0")
 validpgpkeys=()
